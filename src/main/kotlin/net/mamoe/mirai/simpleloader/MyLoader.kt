@@ -10,7 +10,7 @@ import net.mamoe.mirai.event.subscribeMessages
 
 suspend fun main() {
     val qqId = 3211983711L//Bot的QQ号，需为Long类型，在结尾处添加大写L
-    val password = "20200830bot"//Bot的密码
+    val password = "ruanbot20200830"//Bot的密码
     val miraiBot = Bot(qqId, password).alsoLogin()//新建Bot并登录
     miraiBot.subscribeMessages {
         "你好" reply "你好！"

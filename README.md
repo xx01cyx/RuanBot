@@ -1,3 +1,0 @@
-# RuanBot
-
-A lovely bot!
